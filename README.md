@@ -32,12 +32,20 @@ conda activate Smile
 spyder
 ```
 
-6) open file *Smile_Init.py* and run the program.
+6) open file **_Smile_Init.py_** and run the program.
 This script will search for USB camera and it will create a default _Init_id_n.txt_ file for each USB camera found, with _n_ the camera id number.
 Chose the desired camera and rename the corresponding file (i.e. _Init_id_0.txt_) to _Init.txt_
 
-7) open file *Smile.py* and run the program.
+7) open file **_Smile.py_** and run the program.
 
+## Requirements 
+
+In case of direct use:
+
+```
+conda install -c conda-forge ghostscript opencv
+conda install -c anaconda pillow configparser
+```
 ## _Init.txt_ File
 Example:
 
@@ -71,6 +79,27 @@ To change the pixel to µm conversion ration, change the values in the second co
 + 2nd column: **"1"**  is the pixel to µm conversion ration associated to the selction "x 1"
 
 ATTENTION: to update the new values it is necessary to save the _Init.txt_ file **AND** restart the program
+
+## Basic Usage
+
+A screenshot of the **Camera** page is shown here below:  
+
+The **Grid** button shows/hides the grid spaced by the number of pixels displayed to its right.  
+The **Zoom** combo box selects the associated pizel to µm conversion  
+To the right of the **Line (pixel/µm)** label the size of the drawn line is shown  
+If the **FCC** checkbutton is not selected the left mouse button draws a line  
+If the **FCC** check button is selected, the left mouse button will select and draw the data points and the **Circle** button will fit and draw a circle on the data points  
+To the right of the **Circle** button the position of the Xc Yc center, the radius Rc and the area of the circle will be displayed in both pixels and µm depending on the zoom selection  
+
+![V230207_Camera](https://user-images.githubusercontent.com/83216683/218143502-5c0643a4-b909-43d4-836c-a3b347fcfc14.PNG)
+
+A screenshot of the **Settings** page is shown here below:  
+
+![V230207_Settings](https://user-images.githubusercontent.com/83216683/218147068-90b81a1b-668e-496c-8c80-bffb6d96f617.PNG)
+
+## Compiled .exe
+
+A version compiled using [pyinstaller](https://pyinstaller.org/en/stable/) under Windos 11 can be found from [this link](https://drive.google.com/drive/folders/1MZFI8nxq0Xk9AffwlsgMmnXqg4MQ3uCN?usp=share_link)  
 
 ## Licence
 
