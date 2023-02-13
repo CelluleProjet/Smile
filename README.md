@@ -34,7 +34,7 @@ spyder
 
 6) open file **_Smile_Init.py_** and run the program.
 This script will search for USB camera and it will create a default _Init_id_n.txt_ file for each USB camera found, with _n_ the camera id number.
-Chose the desired camera and rename the corresponding file (i.e. _Init_id_0.txt_) to _Init.txt_
+Choose the desired camera and rename the corresponding file (i.e. _Init_id_0.txt_) to _Init.txt_
 
 7) open file **_Smile.py_** and run the program.
 
@@ -76,9 +76,9 @@ gain = -1.0
 ```
 To change the pixel to µm conversion ration, change the values in the second colums of the **[Zoom]** section
 + 1st column: **"x 1"**  is the text visualized in the ComboBox
-+ 2nd column: **"1"**  is the pixel to µm conversion ration associated to the selction "x 1"
++ 2nd column: **"1"**  is the pixel to µm conversion ratio associated to the selction "x 1"
 
-ATTENTION: to update the new values it is necessary to save the _Init.txt_ file **AND** restart the program
+**ATTENTION:** to update the new values it is necessary to save the _Init.txt_ file **AND** restart the program
 
 ## Basic Usage
 
