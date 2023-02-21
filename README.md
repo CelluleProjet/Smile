@@ -87,11 +87,12 @@ A screenshot of the **Camera** page is shown here below:
 The **Grid** button shows/hides the grid spaced by the number of pixels displayed to its right.  
 The **Zoom** combo box selects the associated pizel to µm conversion  
 To the right of the **Line (pixel/µm)** label the size of the drawn line is shown  
+Below the **Line (pixel/µm)** label there are the **H Line** and the **V Line** buttons used to force the line to be horizontal or vertical  
 If the **FCC** checkbutton is not selected the left mouse button draws a line  
 If the **FCC** check button is selected, the left mouse button will select and draw the data points and the **Circle** button will fit and draw a circle on the data points  
 To the right of the **Circle** button the position of the Xc Yc center, the radius Rc and the area of the circle will be displayed in both pixels and µm depending on the zoom selection  
 
-![V230207_Camera](https://user-images.githubusercontent.com/83216683/218143502-5c0643a4-b909-43d4-836c-a3b347fcfc14.PNG)
+![Camera 230221](https://user-images.githubusercontent.com/83216683/220413490-4f8c468a-6d7a-4d20-ba77-91f4a617932c.PNG)
 
 A screenshot of the **Settings** page is shown here below:  
 
@@ -99,7 +100,7 @@ A screenshot of the **Settings** page is shown here below:
 
 ## Compiled .exe
 
-A version compiled using [pyinstaller](https://pyinstaller.org/en/stable/) under Windos 11 can be found from [this link](https://drive.google.com/drive/folders/1MZFI8nxq0Xk9AffwlsgMmnXqg4MQ3uCN?usp=share_link)  
+A version compiled using [pyinstaller](https://pyinstaller.org/en/stable/) under Windos 11 can be found from [this link](https://drive.google.com/drive/folders/1Dgliurh7s4kAT97Kmt8dX1EejhyQgJcN?usp=sharing)  
 
 ## Licence
 
