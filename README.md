@@ -92,11 +92,12 @@ If the **FCC** checkbutton is not selected the left mouse button draws a line
 If the **FCC** check button is selected, the left mouse button will select and draw the data points and the **Circle** button will fit and draw a circle on the data points  
 To the right of the **Circle** button the position of the Xc Yc center, the radius Rc and the area of the circle will be displayed in both pixels and µm depending on the zoom selection  
 
-![Camera 230221](https://user-images.githubusercontent.com/83216683/220413490-4f8c468a-6d7a-4d20-ba77-91f4a617932c.PNG)
+![Camera 230222](https://user-images.githubusercontent.com/83216683/220699842-1d7dc98d-91f9-4f47-9232-3e386e7ded98.PNG)
 
 A screenshot of the **Settings** page is shown here below:  
 
-![V230207_Settings](https://user-images.githubusercontent.com/83216683/218147068-90b81a1b-668e-496c-8c80-bffb6d96f617.PNG)
+![Settings 230222](https://user-images.githubusercontent.com/83216683/220700221-ef27a696-ed01-46f1-abc2-04cc7a9a155f.PNG)
+
 
 ## Compiled .exe
 
