@@ -1,0 +1,24 @@
+[Camera]
+camera_id = 0
+
+[Graphic]
+grid_step = 100
+grid_width = 2
+grid_color = #000000
+line_width = 2
+line_color = #ffffff
+
+[Zoom]
+x 1 = 1
+x 2 = 100
+x 4 = 10000
+
+[Settings]
+width = 640.0
+height = 480.0
+brightness = 0.0
+contrast = 32.0
+saturation = 64.0
+hue = 0.0
+gain = -1.0
+
