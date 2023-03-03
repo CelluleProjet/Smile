@@ -35,6 +35,7 @@ You should have received a copy of the GNU General Public License along with thi
 import tkinter as tk
 from tkinter import colorchooser 
 from tkinter import filedialog
+from tkinter import messagebox
 import time
 import cv2
 import configparser as cp
@@ -581,17 +582,19 @@ You should have received a copy of the GNU General Public License along with thi
         self.points = []
         ratio = float(self.vlist_um[self.Combo.current()])
         mes = f'Circle: Xc / Yc / Rc / Area = [ {Xc:0.1f} / {Yc:0.1f} / {Rc:0.1f} / {np.pi * Rc**2:0.2e} ] pixel [ {Xc*ratio:0.1f} / {Yc*ratio:0.1f} / {Rc*ratio:0.1f} / {np.pi * (Rc*ratio)**2:0.2e}] µm'
+        #mes = f'Circle: Radius  [ {Rc:0.1f} px {Rc*ratio:0.1f} µm ] Area [ {np.pi * Rc**2:0.2e} px {np.pi * (Rc*ratio)**2:0.2e} µm ]'
+        
         self.circle_label_value.set(mes)
         if self.debug:
             print(mes)
         
     def ExitApplication(self):
-        MsgBox = tk.messagebox.askquestion ('Quitting ...','Are you sure you want to quit ?',icon = 'warning')
+        MsgBox = messagebox.askquestion ('Quitting ...','Are you sure you want to quit ?',icon = 'warning')
         if MsgBox == 'yes':
             self.window.quit()     # stops mainloop
             self.window.destroy()
         else:
-            tk.messagebox.showinfo('Return','Going back')
+            messagebox.showinfo('Return','Going back')
     
 if __name__ == "__main__":
     root = tk.Tk()
