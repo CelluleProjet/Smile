@@ -3,7 +3,7 @@
 
 Smile: simple tool for microscope USB camera visualization 
 
-Version 230222
+Version 230303
 
 Author: Yiuri Garino @ yiuri.garino@cnrs.fr
 
@@ -80,7 +80,7 @@ class MainWindow():
         self.window = window
         self.window.protocol("WM_DELETE_WINDOW", self.ExitApplication) #Intercept the close button
         self.window.configure(background='DimGray')
-        self.window.wm_title("Smile Version 230222")
+        self.window.wm_title("Smile Version 230303")
         self.prop_list_name = ["WIDTH",
 "HEIGHT",
 "BRIGHTNESS",
@@ -255,7 +255,7 @@ cv2.CAP_PROP_GAIN]
         
 Smile: simple tool for microscope USB camera visualization 
 
-Version 230222
+Version 230303
 
 Author: Yiuri Garino @ yiuri.garino@cnrs.fr
 
@@ -580,7 +580,7 @@ You should have received a copy of the GNU General Public License along with thi
         self.canvas.create_oval(Xc-Rc, Yc-Rc, Xc+Rc, Yc+Rc, width = 4, outline =self.line_color, tags='FCC_circle')
         self.points = []
         ratio = float(self.vlist_um[self.Combo.current()])
-        mes = f'Circle: Xc Yc Rc Area = [ {Xc:0.1f} {Yc:0.1f} {Rc:0.1f} {np.pi * Rc**2:0.1f} ] pixel [ {Xc*ratio:0.1f} {Yc*ratio:0.1f} {Rc*ratio:0.1f} {np.pi * (Rc*ratio)**2:0.1f}] µm'
+        mes = f'Circle: Xc / Yc / Rc / Area = [ {Xc:0.1f} / {Yc:0.1f} / {Rc:0.1f} / {np.pi * Rc**2:0.2e} ] pixel [ {Xc*ratio:0.1f} / {Yc*ratio:0.1f} / {Rc*ratio:0.1f} / {np.pi * (Rc*ratio)**2:0.2e}] µm'
         self.circle_label_value.set(mes)
         if self.debug:
             print(mes)
