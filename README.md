@@ -90,9 +90,9 @@ To the right of the **Line (pixel/µm)** label the size of the drawn line is sho
 Below the **Line (pixel/µm)** label there are the **H Line** and the **V Line** buttons used to force the line to be horizontal or vertical  
 If the **FCC** checkbutton is not selected the left mouse button draws a line  
 If the **FCC** check button is selected, the left mouse button will select and draw the data points and the **Circle** button will fit and draw a circle on the data points  
-To the right of the **Circle** button the position of the Xc Yc center, the radius Rc and the area of the circle will be displayed in both pixels and µm depending on the zoom selection  
+Below the **Circle** button the position of the Xc Yc center, the radius Rc and the area of the circle will be displayed in both pixels and µm depending on the zoom selection  
 
-![Camera 230222](https://user-images.githubusercontent.com/83216683/220699842-1d7dc98d-91f9-4f47-9232-3e386e7ded98.PNG)
+![Camera_v230303](https://user-images.githubusercontent.com/83216683/222727016-928dc443-3aa7-4df4-8bdb-a749c5b532bf.PNG)
 
 A screenshot of the **Settings** page is shown here below:  
 
