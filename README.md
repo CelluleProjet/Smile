@@ -103,7 +103,7 @@ A screenshot of the **Settings** page is shown here below:
 
 A version compiled using [pyinstaller](https://pyinstaller.org/en/stable/) under Windos 11 can be found from [this link](https://drive.google.com/drive/folders/1Dgliurh7s4kAT97Kmt8dX1EejhyQgJcN?usp=sharing)  
 
-## Licence
+## License
 
 Copyright (c) 2022-2023 Yiuri Garino
 
